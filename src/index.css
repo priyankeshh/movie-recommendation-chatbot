@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for markdown elements */
+strong {
+  font-weight: 700;
+  color: #800000; /* cozy-maroon - darker for better contrast */
+  background-color: rgba(255, 223, 0, 0.15); /* light gold background */
+  padding: 0 0.2rem;
+  border-radius: 0.2rem;
+}
+
+em {
+  font-style: italic;
+  color: #B22222; /* cozy-red - darker for better contrast */
+  text-decoration: underline;
+  text-decoration-color: rgba(194, 142, 23, 0.5); /* cozy-caramel with opacity */
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+code {
+  font-family: monospace;
+  background-color: rgba(139, 90, 43, 0.1); /* cozy-brown with opacity */
+  color: #6F4E37; /* cozy-coffee */
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.25rem;
+  font-size: 0.9em;
+  border: 1px solid rgba(139, 90, 43, 0.2); /* light border */
+}
+
+/* Link styles */
+.message-link {
+  color: #4a6fb5; /* blue color */
+  text-decoration: underline;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.2rem;
+}
+
+.message-link:hover {
+  background-color: rgba(74, 111, 181, 0.1);
+  text-decoration: underline;
+}
+
+/* Special styling for cinema links */
+.cinema-link {
+  color: #B22222; /* cozy-red */
+  text-decoration: underline;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.2rem;
+  background-color: rgba(255, 223, 0, 0.1); /* light gold background */
+  border-bottom: 1px dashed #C68E17; /* cozy-caramel */
+}
+
+.cinema-link:hover {
+  background-color: rgba(255, 223, 0, 0.2);
+  color: #800000; /* cozy-maroon */
+  text-decoration: underline;
+}
